@@ -1,0 +1,16 @@
+ForgeRock Cloud Infrastructure Engineer Coding ChallengeThis is a simple exercise that should take you nomore than a few hours to complete. This is intendedto be fun. If you enjoy this exercise, you will like working withthe Autonomous teams at ForgeRock.
+The goal of the assignment to evaluate basic programmingand infrastructure automation skills. We want toseehow candidates express themself in code (including tests).
+Write a REST-style API that takes filesystem pathto a text file and returns a JSON Object with thefollowing stats about the contents of the file:
+The longest word(s)
+Number of words
+Number of unique words
+Average word length
+Bonus: support parallel processing for faster performancewhen input file is 100s of megabytes
+Show simple unit tests for some part or all of thecode
+Provide a build script that compiles (if applicable),runs unit tests and packages the service in aDocker image
+Write a simple integration test for the service
+Provide necessary manifest files and instructionsto
+Deploy the service in a Kubernetes cluster/Minikube
+Make input text file(s) required by the integrationtest accessible to the service container
+Run the integration test suit
+Bonus: scale the service up for faster processing
