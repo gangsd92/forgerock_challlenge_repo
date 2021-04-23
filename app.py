@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-# API_KEY = "9141deb0c6c087626d9024a6b1a5682d"
+# API_KEY = ""
 API_KEY = os.environ['API_KEY']
 
 @app.route('/')
@@ -17,8 +17,8 @@ def weather_by_city(country, city):
 
     # url = 'https://samples.openweathermap.org/data/2.5/weather'
 
-    # api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=9141deb0c6c087626d9024a6b1a5682d
-    # url = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=9141deb0c6c087626d9024a6b1a5682d'
+    # api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=
+    # url = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID='
     url = 'https://api.openweathermap.org/data/2.5/weather'
 
     params = dict(
