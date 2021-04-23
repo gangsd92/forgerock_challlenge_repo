@@ -109,6 +109,6 @@ if __name__ == '__main__':
 
 
 ### TEST BLOCK ###
-file_path = 'sample_file.txt'
+# file_path = 'sample_file.txt'
 
-print(get_file_info(file_path))
+# print(get_file_info(file_path))
